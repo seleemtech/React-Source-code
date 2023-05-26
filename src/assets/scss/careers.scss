@@ -1,0 +1,21 @@
+.careers{
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        tr:nth-child(1) {
+            background-color: #888181 !important;
+          }
+          
+        tr:nth-child(odd) {
+            background-color: #dddddd;
+          }
+          tr{
+            td {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 4px;
+              }
+          }
+          
+      }
+}

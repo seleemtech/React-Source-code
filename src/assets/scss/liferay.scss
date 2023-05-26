@@ -1,0 +1,316 @@
+.liferay {
+  .mainDiv {
+    display: flex;
+    padding: 10px 0;
+
+    img {
+      height: 65px;
+    }
+    p {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.5;
+      text-align: justify;
+      color: white;
+      padding-left: 10px;
+      border-left: 5px solid red;
+      margin-left: 10px;
+      margin-top: 18px;
+    }
+  }
+  .marginLeft {
+    margin-left: 10rem;
+  }
+  .span3 {
+    width: 19.40426%;
+    padding: 10px;
+    img {
+      width: 100%;
+      height: 100px !important;
+      position: relative;
+    }
+    .liferay_pln_icon {
+      font-size: 50px;
+      text-align: center;
+      position: relative;
+      .liferay_offer {
+        border-radius: 50%;
+        padding: 20px;
+        color: #e43e2b;
+        border: none;
+        position: absolute;
+        background-color: white;
+        top: -14px;
+        left: -42px;
+      }
+      .liferay_offer1 {
+        border-radius: 50%;
+        padding: 20px;
+        color: #f0b52f;
+        border: none;
+        position: absolute;
+        background-color: white;
+        top: -14px;
+        left: 42px;
+      }
+
+      .liferay_offer2 {
+        border-radius: 50%;
+        padding: 20px;
+        color: #3b7ded;
+        border: none;
+        position: absolute;
+        background-color: white;
+        top: -14px;
+        left: 42px;
+      }
+      .liferay_offer3 {
+        border-radius: 50%;
+        padding: 20px;
+        color: #56a24d;
+        border: none;
+        position: absolute;
+        background-color: white;
+        top: -14px;
+        left: 42px;
+      }
+      .liferay_offer4 {
+        border-radius: 50%;
+        padding: 15px;
+        color: #0170bf;
+        border: none;
+        position: absolute;
+        background-color: white;
+        top: -20px;
+        left: 120px;
+      }
+    }
+    .ofr-card-down {
+      margin-top: 64px;
+      .liferay_esq_off {
+        font-family: latolight;
+        color: #e43e2a;
+        font-size: 17.5px;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .liferay_esq_off1 {
+        font-family: latolight;
+        color: #f0b52f;
+        font-size: 17.5px;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .liferay_esq_off2 {
+        font-family: latolight;
+        color: #3b7ded;
+        font-size: 17.5px;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .liferay_esq_off3 {
+        font-family: latolight;
+        color: #56a24d;
+        font-size: 17.5px;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .liferay_esq_off4 {
+        font-family: latolight;
+        color: #0170bf;
+        font-size: 17.5px;
+        text-align: center;
+        padding: 10px 0;
+      }
+    }
+  }
+  .liferay-card {
+    position: relative;
+    .imgMain {
+      position: relative;
+    }
+    .imgIcon {
+      height: 40px !important;
+      width: 40px;
+      position: absolute;
+      top: 43px;
+      left: 20%;
+    }
+    .text-group1 {
+      position: absolute;
+      color: white;
+      width: 56%;
+      padding: 14px 33px 37px 50px;
+      text-align: left;
+      .off_spn_h4 {
+        font-size: 15px;
+        font-weight: bold;
+        color: white !important;
+        text-align: center;
+        margin: 0 0 10px;
+      }
+      li {
+        font-family: "PT Sans", sans-serif !important;
+        font-size: 12px;
+        text-align: left;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .liferay {
+    .mainDiv{
+        p{
+            font-size: 18px
+        }
+    }
+    
+        .marginLeft {
+            margin-left: 0;
+          }
+    
+    .liferay_align {
+      display: grid  !important;
+
+    
+      .span3 {
+        &.liferay_cons {
+          text-align: center;
+          width: 100%;
+          img {
+            display: none;
+          }
+          .liferay_pln_icon {
+            .liferay_offer1 {
+              position: relative !important;
+              top: 0 !important;
+              left: 0 !important;
+              background: #6ea3db !important;
+              color: white !important;
+            }
+            .liferay_offer{
+                position: relative !important;
+                top: 0 !important;
+                left: 0 !important;
+                background: #6ea3db !important;
+                color: white !important;
+            }
+            .liferay_offer2{
+                position: relative !important;
+                top: 0 !important;
+                left: 0 !important;
+                background: #6ea3db !important;
+                color: white !important;
+            }
+            .liferay_offer3{
+                position: relative !important;
+                top: 0 !important;
+                left: 0 !important;
+                background: #6ea3db !important;
+                color: white !important;
+            }
+            .liferay_offer4{
+                position: relative !important;
+                top: 0 !important;
+                left: 0 !important;
+                background: #6ea3db !important;
+                color: white !important;
+            }
+          }
+          .ofr-card-down {
+            margin-top: 0px;
+            margin-bottom: 20px;
+            li{
+                text-align: left;
+                padding: 0px 60px;
+            }
+      }
+        }
+        
+      }
+    }
+    .liferay-card {
+      .imgIcon {
+        left: 25%;
+      }
+      .text-group1 {
+        padding: 14px 33px 37px 70px;
+
+        .off_spn_h4 {
+            text-align: left;
+            font-size: 13px;
+
+        }
+        li {
+            line-height: 15px;
+            font-size: 10px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 750px) {
+  .liferay {
+    .liferay-card {
+      .imgIcon {
+        left: 17%;
+      }
+      .liferay-card {
+        .imgIcon {
+          left: 25%;
+        }
+        .text-group1 {
+  
+          .off_spn_h4 {
+          }
+          li {
+              line-height: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .liferay {
+    .mainDiv{
+        img {
+            height: 50px;
+          }
+        p{
+            font-size: 14px
+        }
+    }
+    .liferay-card {
+      .imgIcon {
+        left: 10%;
+      }
+      .text-group1 {
+        padding: 14px 33px 37px 0;
+        .off_spn_h4 {
+        }
+        li {
+            line-height: 12px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 390px) {
+    .liferay {
+      .liferay-card {
+        .text-group1 {
+          padding: 14px 33px 37px 0;
+          .off_spn_h4 {
+            font-size: 10px;
+          }
+          li {
+              line-height: 11px;
+              font-size: 8px;
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+.rs-partner {
+    .partner-item {
+        a {
+            img {
+                max-width: 163px;
+                margin: 0 auto ;
+                -webkit-filter: opacity(.5) drop-shadow(0 0 0 #881e20);  
+                filter: opacity(.5) drop-shadow(0 0 0  #881e20);  
+            }
+        }
+    }
+    &.style2{
+        .partner-item {
+            a {
+                img {
+                    max-width: 100px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

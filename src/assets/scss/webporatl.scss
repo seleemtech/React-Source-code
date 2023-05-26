@@ -1,0 +1,310 @@
+.webportal {
+    position: relative;
+    .cta-img {
+        img {
+          
+            width: 100%;
+        }
+    }
+    .cta-content {
+        position: absolute;
+        width: 100%;
+        max-width: 600px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &.main-home{
+        .partition-bg-wrap{
+            background: none !important;
+            position: relative;
+            padding: 130px 0;
+            &:after,
+            &:before {
+                position: absolute;
+                content: '';
+                width: 50%;
+                height: 100%;
+                bottom: 0;
+                z-index: -1;
+            }
+            &:after {
+               
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            &:before {
+               
+                background-size: cover;
+                background-repeat: no-repeat;
+                right: 0;
+            }
+           
+        } 
+        .listType{
+            list-style-type: none;
+        }
+    }  
+    &.section-wrap{
+        .content-wrap{
+            padding: 100px 100px 100px 105px;
+            background: $secondaryColor;
+            .text-part{
+                padding-right: 400px;
+                .sub-title{
+                    font-size: 18px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: $whiteColor;
+                    text-transform: uppercase;
+                    margin-bottom: 15px;
+                } 
+                .title{
+                    font-size: 36px;
+                    line-height: 46px;
+                    font-weight: 700;
+                    color: $whiteColor;
+                    margin-bottom: 25px;
+                }
+                .desc{
+                    font-size: 16px;
+                    line-height: 26px;
+                    font-weight: 400;
+                    color: $whiteColor;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+        .content {
+            max-width: 700px;
+            padding-left: 90px;
+            padding-right: 15px;
+        }
+    }
+    &.effects-layer{
+        .effects-bg{
+            .content-part{
+                padding: 56px 4px 60px 50px;
+                .title{
+                    font-size: 24px;
+                    line-height: 40px;
+                    font-weight: 800;
+                    color: $titleColor5;
+                    margin-bottom: 13px;
+                }
+            }
+            &.apply-bg{
+                background-color: #F9F7F8;
+                background-image: url(../img/Ctapic/home1.jpg);
+                background-position: bottom right;
+                background-repeat: no-repeat;
+                border-radius: 4px 4px 4px 4px;
+                margin-top: 20px;
+            }
+            &.enroll-bg{
+                background-color: #F9F7F8;
+                background-image: url(../img/Ctapic/home1.jpg);
+                background-position: bottom right;
+                background-repeat: no-repeat;
+                border-radius: 4px 4px 4px 4px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+/* Lg Device :1199px. */
+@media #{$lg} {    
+    .webportal.effects-layer .effects-bg .content-part {
+        padding: 56px 100px 60px 50px;
+    }
+}
+
+/* Tablet desktop :992px to 1199px. */
+@media #{$only_lg} {    
+    .webportal.section-wrap .content {
+        max-width: 714px;
+        padding-left: 0;
+        padding: 10px 10px 10px 0;
+    }
+    .webportal.section-wrap .content .sec-title .title{
+        margin: 0 0 15px;
+    }
+}
+
+/* Tablet desktop :991px. */
+@media #{$md} {    
+    .webportal.home-style14 .btn-part{
+        text-align: center !important;
+    }
+    .webportal.home-style14{
+        text-align: center;
+    } 
+    .webportal.home11-style .content .sec-title2 .desc br{
+        display: none;
+    } 
+    .webportal.home11-style .content{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .webportal.home9-style .partition-bg-wrap {
+        padding: 70px 0;
+    }
+    .webportal.home9-style .partition-bg-wrap::after, .webportal.home9-style .partition-bg-wrap::before {
+        width: 100%;
+    }
+    .webportal.home9-style .partition-bg-wrap::after {
+        display: none;
+    } 
+    .webportal.main-home .partition-bg-wrap {
+       padding: 30px 0;
+    }
+    .webportal.main-home .partition-bg-wrap::after {
+        display: none;
+    }
+    .webportal.main-home .partition-bg-wrap::before {
+        width: 100%;
+    }
+    .webportal.style7 .partition-bg-wrap::before {
+        right: unset;
+    }
+    .webportal.style7 .partition-bg-wrap::after, .webportal.style7 .partition-bg-wrap::before {
+        width: 100%;
+        height: 50%;
+    }
+    .webportal.style7 .partition-bg-wrap::after{
+       bottom: unset;
+       top: 0;
+    }
+    .webportal.section-wrap .content {
+        padding: 50px 0;
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+    } 
+    .webportal .cta-img img {
+        min-height: 400px;
+    }
+    .webportal.style1 .partition-bg-wrap:before,
+    .webportal.style1 .partition-bg-wrap:after {
+        width: 100%;
+        height: 50%;
+    }
+    .webportal.style1 .partition-bg-wrap:before {
+        top: 0;
+    }
+    .webportal.style1 .partition-bg-wrap:after {
+        bottom: 0;
+    }
+    .webportal.style2 .partition-bg-wrap.home2:before {
+        height: 45%;
+    }
+    .webportal.style2 .partition-bg-wrap.home2:after {
+        height: 55%;
+    } 
+    .webportal.style2 .partition-bg-wrap:before {
+        width: 100%;
+        max-height: 300px;
+        left: unset;
+        bottom: unset;
+        top: 0;
+    }
+    .webportal.style2 .partition-bg-wrap:after {
+        width: 100%;        
+        right: unset;
+        top: unset;
+    }
+    .webportal.style2 .partition-bg-wrap.inner-page:after,
+    .webportal.style2 .partition-bg-wrap.inner-page:before {
+        max-height: 330px;
+    }
+    .webportal {
+        &.effects-layer {
+            .effects-bg {
+                .content-part {
+                    padding: 56px 250px 60px 50px;
+                }
+            }
+        }
+    }
+}
+
+/* Tablet :767px. */
+@media #{$sm} {    
+    .webportal.effects-layer .effects-bg .content-part .title {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .webportal.effects-layer .effects-bg.apply-bg {
+        background-position: top center;
+    }
+    .webportal.effects-layer .effects-bg .content-part {
+        padding: 350px 90px 60px 40px;
+    }
+    .webportal.effects-layer .effects-bg.enroll-bg {
+        background-position: top center;
+    }
+    .webportal.section-wrap .content {
+        max-width: 540px;
+        padding: 50px 15px;
+    } 
+    .webportal.home11-style .content {
+        max-width: 532px;
+        margin: 0 auto;
+    }
+    .webportal .cta-img img {
+        min-height: 350px;
+    }
+    .webportal.style2 .partition-bg-wrap:after {
+        max-height: 350px;
+    }
+}
+
+/* Large Mobile :575px. */
+@media #{$xs} {    
+    .webportal.home11-style .content {
+        max-width: 390px;
+        margin: 0 auto;
+    }
+    .webportal .cta-content {
+        padding: 0 15px;
+    }
+}
+
+/* small mobile :480px. */
+@media #{$mobile} {    
+    .webportal.effects-layer .effects-bg .content-part {
+        padding: 350px 30px 60px 40px;
+    }
+    .webportal.home11-style .content .sec-title2 .title{
+        font-size: 17px;
+    } 
+    .webportal.home11-style .content {
+        max-width: 286px;
+        margin: 0 auto;
+    }
+    .webportal.style7 .partition-bg-wrap .sec-title2 .title{
+        font-size: 29px;
+        line-height: 39px;
+    }
+    .webportal .cta-content .btn-part .readon2 {
+        margin: 5px 0;
+        width: 100%;
+    }
+    .webportal.style2 .partition-bg-wrap:after {
+        max-height: 375px;
+    }
+    .webportal .sec-title .title {
+        font-size: 23px;
+    }
+    .webportal.style2 .partition-bg-wrap.inner-page:after, 
+    .webportal.style2 .partition-bg-wrap.inner-page:before {
+        max-height: 380px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .webportal{
+       padding-bottom: -200px;
+    }
+}
